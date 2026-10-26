@@ -1,0 +1,21 @@
+{
+  "name": "The Shirley Awards",
+  "short_name": "Shirley Awards",
+  "icons": [
+    {
+      "src": "/src/assets/images/favicon/web-app-manifest-192x192.png?v=1",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/src/assets/images/favicon/web-app-manifest-512x512.png?v=1",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "theme_color": "#fdd895",
+  "background_color": "#051123",
+  "display": "standalone"
+}

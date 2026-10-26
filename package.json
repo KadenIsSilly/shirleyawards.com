@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "echo 'No build step required'"
+  },
+  "dependencies": {
+    "@tommyvez/passfort": "^1.0.1",
+    "@vercel/analytics": "^2.0.1"
+  }
+}

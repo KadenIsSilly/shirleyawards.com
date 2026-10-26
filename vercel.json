@@ -1,0 +1,21 @@
+{
+    "outputDirectory": ".",
+    "rewrites": [
+        {
+            "source": "/",
+            "destination": "/src/pages/home.html"
+        },
+        {
+            "source": "/about",
+            "destination": "/src/pages/about.html"
+        },
+        {
+            "source": "/vote",
+            "destination": ""
+        },
+        {
+            "source": "/winners",
+            "destination": "/src/pages/winners.html"
+        }
+    ]
+}
