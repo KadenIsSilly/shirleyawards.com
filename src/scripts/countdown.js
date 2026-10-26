@@ -1,4 +1,4 @@
-const date = new Date("2026-11-15T17:00:00Z").getTime();
+const date = new Date("2026-11-12T17:00:00Z").getTime();
 
 const title = document.getElementById("title");
 const announcement = document.getElementById("announcement");
