@@ -79,10 +79,6 @@ header nav p:hover {
     cursor: not-allowed
 }
 
-main {
-    height: 100vh;
-}
-
 footer {
     display: flex;
     justify-content: space-between;

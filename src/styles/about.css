@@ -1,0 +1,98 @@
+main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 24px 0;
+    gap: 32px;
+    max-width: 900px;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+main .about .main-title {
+    font-size: 42px;
+    font-weight: 600;
+    color: var(--accent);
+    user-select: none;
+}
+
+main section p {
+    font-size: 17px;
+    line-height: 1.2;
+}
+
+main .about .thumbnail {
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    border-radius: 16px;
+    box-shadow: #00000091 0 2px 8px 4px;
+}
+
+main .how, main .host .info, main .red-carpet {
+    padding: 24px;
+    border: var(--accent) solid 1px;
+    border-radius: 16px;
+    box-shadow: #00000091 0 2px 8px 4px;
+}
+
+main section .title {
+    font-size: 32px;
+    color: var(--title);
+    user-select: none;
+}
+
+main .host {
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+main .host .pfp {
+    width: 250px;
+    border-radius: 16px;
+    box-shadow: #00000091 0 2px 8px 4px;
+}
+
+main .host .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 18px;
+    width: 600px;
+}
+
+main .red-carpet {
+    flex-direction: row;
+    align-items: center;
+}
+
+main .red-carpet .title {
+    max-width: 200px;
+    line-height: 1.15;
+}
+
+main .red-carpet .info {
+    max-width: 600px;
+}
+
+main .last-show .main-title {
+    font-size: 42px;
+    font-weight: 600;
+    color: var(--title);
+    user-select: none;
+}
+
+main .last-show iframe {
+    margin: 0 auto;
+    aspect-ratio: 16 / 9;
+    width: 500px;
+    height: auto;
+    border-radius: 16px;
+    box-shadow: #00000091 0 2px 8px 4px;
+}
