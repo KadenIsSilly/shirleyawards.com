@@ -93,6 +93,7 @@ footer section:first-child .title {
 
 footer section:first-child p {
     font-size: 14px;
+    font-weight: 400;
     color: var(--subtext);
     opacity: 0.75;
 }
