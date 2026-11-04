@@ -15,7 +15,23 @@
         },
         {
             "source": "/winners",
-            "destination": "/src/pages/winners.html"
+            "destination": "/src/pages/winners-2025.html"
+        },
+        {
+            "source": "/winners/2025",
+            "destination": "/src/pages/winners-2025.html"
+        },
+        {
+            "source": "/winners/2024",
+            "destination": "/src/pages/winners-2024.html"
+        },
+        {
+            "source": "/winners/2023",
+            "destination": "/src/pages/winners-2023.html"
+        },
+        {
+            "source": "/winners/2022",
+            "destination": "/src/pages/winners-2022.html"
         }
     ]
 }

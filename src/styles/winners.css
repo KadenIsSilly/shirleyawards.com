@@ -1,0 +1,87 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 24px 0;
+    gap: 32px;
+    max-width: 950px;
+    flex: 1;
+}
+
+main .main-title {
+    font-size: 42px;
+    font-weight: 600;
+    color: var(--accent);
+    user-select: none;
+}
+
+main .winner-card {
+    padding: 24px;
+    border: var(--accent) solid 1px;
+    border-radius: 16px;
+    box-shadow: #00000091 0 2px 8px 4px;
+}
+
+main .winner-card .title {
+    font-size: 32px;
+    color: var(--title);
+    line-height: 1.1;
+    user-select: none;
+}
+
+main .winner-card .description {
+    font-weight: 400;
+    color: var(--subtext);
+    user-select: none;
+}
+
+main .winner-card hr {
+    width: 250px;
+    height: 2px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: var(--accent);
+    border: none;
+}
+
+main .winner-card .people {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    font-size: 18px;
+}
+
+main .winner-card .people .loser {
+    color: var(--accent-dimmed);
+}
+
+main .winner-card .people .winner {
+    color: var(--accent);
+}
+
+main .winner-card .people a {
+    text-decoration-line: underline;
+}
+
+main .winner-card .people .sub {
+    font-size: 14px;
+}
+
+main .winner-card .people .winner .sub {
+    color: var(--text);
+    opacity: 0.9;
+}
+
+main .winner-card .people .loser .sub {
+    color: var(--subtext);
+    opacity: 0.5;
+}
