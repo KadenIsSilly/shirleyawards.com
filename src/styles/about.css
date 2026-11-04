@@ -103,3 +103,45 @@ main .last-show iframe {
     border-radius: 16px;
     box-shadow: #00000091 0 2px 8px 4px;
 }
+
+@media (max-width: 950px) {
+    main {
+        padding: 24px 16px;
+    }
+}
+
+@media (max-width: 700px) {
+    main .about .main-title, main .last-show .main-title {
+        font-size: 30px;
+    }
+
+    main section .title {
+        font-size: 26px;
+    }
+
+    main .about .thumbnail {
+        width: 100%;
+    }
+
+    main .host,
+    main .red-carpet {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .host .pfp {
+        width: 200px;
+    }
+
+    main .host .info {
+        width: 100%;
+    }
+
+    main .red-carpet .title {
+        max-width: none;
+    }
+
+    main .last-show iframe {
+        width: 100%;
+    }
+}

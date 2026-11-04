@@ -81,3 +81,55 @@ main .content .countdown .timer .container p:last-child {
     color: var(--subtext);
 }
 
+@media (max-width: 700px) {
+    main {
+        height: 75vh;
+    }
+
+    main .content {
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: none;
+        padding: 32px 16px;
+    }
+
+    main .content .logo {
+        width: min(300px, 80vw);
+        height: auto;
+        aspect-ratio: 1;
+    }
+
+    main .content .countdown {
+        width: 100%;
+    }
+
+    main .content .countdown .title {
+        font-size: 22px;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+    main .content .countdown .announcement {
+        font-size: 17px;
+    }
+
+    main .content .countdown .timer {
+        width: 100%;
+        gap: 8px;
+    }
+
+    main .content .countdown .timer .container {
+        flex: 1;
+        min-width: 0;
+    }
+
+    main .content .countdown .timer .container .count {
+        font-size: 22px;
+    }
+
+    main .content .countdown .timer .container p:last-child {
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+}

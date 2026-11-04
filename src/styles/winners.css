@@ -86,3 +86,37 @@ main .winner-card .people .loser .sub {
     color: var(--subtext);
     opacity: 0.5;
 }
+
+@media (max-width: 1000px) {
+    main {
+        padding: 24px 16px;
+    }
+}
+
+@media (max-width: 700px) {
+    main .main-title {
+        font-size: 30px;
+    }
+
+    main .winner-card {
+        padding: 16px;
+    }
+
+    main .winner-card .title {
+        font-size: 24px;
+    }
+
+    main .winner-card .people {
+        flex-direction: column;
+        gap: 10px;
+        font-size: 16px;
+    }
+
+    main .winner-card .people .loser {
+        max-width: 100%;
+    }
+
+    main .winner-card hr {
+        width: 150px;
+    }
+}
