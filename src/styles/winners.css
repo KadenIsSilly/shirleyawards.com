@@ -24,7 +24,7 @@ main .main-title {
 
 main .winner-card {
     padding: 24px;
-    border: var(--accent) solid 1px;
+    border: var(--border) solid 1px;
     border-radius: 16px;
     box-shadow: #00000091 0 2px 8px 4px;
 }
@@ -62,6 +62,7 @@ main .winner-card .people {
 
 main .winner-card .people .loser {
     color: var(--accent-dimmed);
+    max-width: 451px;
 }
 
 main .winner-card .people .winner {
