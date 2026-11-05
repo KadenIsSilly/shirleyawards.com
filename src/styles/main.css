@@ -49,6 +49,10 @@ header {
 }
 
 header .title {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--accent);
+    text-shadow: var(--accent) 0 0 12px;
     user-select: none;
 }
 
