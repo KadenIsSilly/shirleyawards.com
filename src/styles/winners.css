@@ -67,10 +67,21 @@ main .winner-card .people .loser {
 
 main .winner-card .people .winner {
     color: var(--accent);
+    max-width: 451px;
 }
 
 main .winner-card .people a {
     text-decoration-line: underline;
+}
+
+main .winner-card .people img {
+    width: 186px;
+    height: auto;
+}
+
+main .winner-card .people img.loser {
+    opacity: 0.5;
+    filter: saturate(0);
 }
 
 main .winner-card .people .sub {
