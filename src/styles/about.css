@@ -64,6 +64,36 @@ main .host .pfp {
     width: 250px;
     border-radius: 16px;
     box-shadow: #00000091 0 2px 8px 4px;
+    transition: transform 0.25s ease-in-out;
+}
+
+main .host .pfp:hover {
+    transform: scale(1.1);
+    cursor: grab;
+}
+
+main .host .pfp:active {
+    transform: scale(1.025);
+    cursor: grabbing;
+}
+
+main .host .click-score {
+    font-weight: 400;
+    color: var(--text);
+    text-shadow: 0 3px 6px #0000003a;
+    opacity: 0;
+    user-select: none;
+    animation: fadeUp 2s;
+}
+
+@keyframes fadeUp {
+    from {
+        transform: translateY(0);
+        opacity: 1;
+    } to {
+        transform: translateY(-200px);
+        opacity: 0.5;
+    }
 }
 
 main .host .info {
