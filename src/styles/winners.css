@@ -77,6 +77,7 @@ main .winner-card .people a {
 main .winner-card .people img {
     width: 186px;
     height: auto;
+    margin-bottom: 4px;
 }
 
 main .winner-card .people img.loser {
