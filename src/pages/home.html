@@ -37,7 +37,7 @@
 
             <nav>
                 <a href="/about">ABOUT</a>
-                <p>NOMINATE</p>
+                <p id="vote-text">NOMINATE</p>
                 <div class="dropdown">
                     <button>
                         Winners
@@ -66,6 +66,7 @@
 
                 <section class="countdown">
                     <h1 class="title" id="title">NOMINATIONS OPEN IN</h1>
+                    <a class="button" id="button" href="/nominate" target="_blank" rel="noopener" style="display: none;">Nominate Here</a>
 
                     <p class="announcement" id="announcement" style="display: block;">NOV 12TH &bullet; 5pm GMT</p>
 
@@ -115,7 +116,8 @@
         <!--------------->
         <script defer="" src="/_vercel/insights/script.js"></script>
         <script src="/src/scripts/burger-menu.js"></script>
-        <script src="/src/scripts/countdown.js"></script>
         <script src="/src/scripts/current-year.js"></script>
+        <script src="/src/scripts/update-link.js"></script>
+        <script src="/src/scripts/countdown.js"></script>
     </body>
 </html>
