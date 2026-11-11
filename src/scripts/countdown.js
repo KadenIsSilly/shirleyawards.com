@@ -1,6 +1,7 @@
 const date = new Date("2026-11-12T17:00:00Z").getTime();
 
 const title = document.getElementById("title");
+const button = document.getElementById("button");
 const announcement = document.getElementById("announcement");
 const timer = document.getElementById("timer");
 const dayCount = document.getElementById("days-count");
@@ -15,8 +16,10 @@ const update = () => {
     const distance = date - new Date().getTime();
 
     if (distance < 0) {
-        title.innerHTML = "NOMINATIONS ARE OPEN";
+        title.innerHTML = "NOMINATIONS ARE OPEN!";
         timer.style.display = "none";
+        button.style.display = "block";
+        clearInterval(interval);
     } else {
         const days = Math.floor(distance / (1000 * 60 * 60 * 24));
         const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
