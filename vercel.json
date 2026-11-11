@@ -18,6 +18,10 @@
             "destination": "https://forms.gle/JNN36KQHacw4893g6"
         },
         {
+            "source": "/categories",
+            "destination": "/src/pages/categories.html"
+        },
+        {
             "source": "/winners",
             "destination": "/src/pages/winners-2025.html"
         },
