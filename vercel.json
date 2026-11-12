@@ -40,6 +40,10 @@
         {
             "source": "/winners/2022",
             "destination": "/src/pages/winners-2022.html"
+        },
+        {
+            "source": "/credits",
+            "destination": "/src/pages/credits.html"
         }
     ]
 }

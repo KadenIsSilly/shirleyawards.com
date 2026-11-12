@@ -1,0 +1,67 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 24px 0;
+    gap: 32px;
+    max-width: 950px;
+    flex: 1;
+}
+
+main .main-title {
+    font-size: 42px;
+    font-weight: 600;
+    color: var(--accent);
+    user-select: none;
+}
+
+main .top .description {
+    font-size: 18px;
+}
+
+main .credits {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+main .credits .person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    border: var(--border) solid 1px;
+    border-radius: 16px;
+    box-shadow: #00000091 0 2px 8px 4px;
+}
+
+main .credits .person a {
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--accent);
+    text-decoration-line: underline;
+}
+
+main .credits .person p {
+    font-weight: 400;
+    color: var(--subtext);
+}
+
+@media (max-width: 1000px) {
+    main {
+        padding: 24px 16px;
+    }
+}
+
+@media (max-width: 700px) {
+    main .main-title {
+        font-size: 30px;
+    }
+}
