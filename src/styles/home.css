@@ -1,6 +1,7 @@
 main {
     height: 100vh;
     position: relative;
+    flex: none;
 }
 
 main video {

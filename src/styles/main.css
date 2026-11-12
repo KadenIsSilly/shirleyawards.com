@@ -6,12 +6,12 @@
 
 :root {
     --background: #051123;
-    --border: #f7ce84;
+    --border: #dfbf85;
     --title: #ffffff;
     --text: #d1d3d7;
     --subtext: #ced0d3;
-    --accent: #dfb04f;
-    --accent-dimmed: #dfaf4f36;
+    --accent: #ffde71;
+    --accent-dimmed: #ffde7136;
 }
 
 html {
